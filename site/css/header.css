@@ -25,6 +25,8 @@ header .menus .top_menu{
     display: flex;
     gap: 10px;
     align-items: center;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .container .principal_menu{
@@ -35,6 +37,12 @@ header .menus .top_menu{
     align-items: center;
 
 
+}
+
+.logo img{
+
+    width: 100%;
+    max-width: 150px;
 }
 
 .container .principal_menu .menu ul{

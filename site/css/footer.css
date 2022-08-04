@@ -1,0 +1,148 @@
+footer{
+
+    background-color: #252525;
+}
+
+.footer_top {
+
+    display: flex;
+    gap: 50px;
+    padding: 25px 0;
+
+}
+
+.footer_div_1{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 260px;
+
+}
+.footer_top .footer_div_1 img{
+
+    width: 100%;
+    max-width: 150px;
+}
+
+.footer_div_1 .description{
+
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.footer_div_2{
+
+    padding: 50px 60px;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+.footer_div_2 .destinos_img {
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.destinos_img .destino_box {
+
+    background-position: center;
+    width: 100%;
+    max-width: 150px;
+    height: 150px;
+    text-align: center;
+
+}
+
+
+.destino_box a{
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 150px;
+}
+
+.destino{
+
+    display: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.destinos_img .destino_box:hover .destino{
+
+    display: flex;
+}
+
+.footer_div_3 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    max-width: 250px;
+    padding: 50px 0px;
+    color: white;
+}
+
+.footer_div_3 .texts_footer{
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.texts_footer .info{
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+}
+
+.icons_footer {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.icons_footer .icons {
+
+    display: flex;
+    gap: 25px;
+    font-size: 30px;
+}
+
+.footer_bottom{
+
+    padding: 3px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: #656565;
+}
+
+.footer_bottom a{
+
+    font-weight: bold;
+    color: #656565;
+}
+
+.footer_bottom a:hover{
+
+    color: #0080ff;
+}
