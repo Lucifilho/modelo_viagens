@@ -1,0 +1,100 @@
+header{
+    background-image: url(../imagens/background/bkgr3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header .menus{
+
+    background-color: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+header .menus .top_menu{
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.top_menu .contact_info a{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.container .principal_menu{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+
+
+}
+
+.container .principal_menu .menu ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 20px;
+
+
+}
+
+.menu ul li a{
+    font-weight: 800;
+}
+
+.menu ul li a:hover{
+
+    color: #017088;
+    border-bottom: 3px solid #017088;
+    transition-duration: 0.2s;
+}
+
+.header_content {
+    background-color: rgba(0, 59, 171, 0.3);
+}
+
+.container .texts{
+
+    padding: 150px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
+
+.container .texts .btn_header{
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: #0080ff;
+    padding: 15px 35px;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.container .texts .btn_header:hover {
+
+    background-color: #003bab;
+    transition-duration: 0.5s;
+    font-size: 27px;
+    max-width: 170px;
+}
+
+.container .texts .description{
+
+    font-size: 18px;
+    font-weight: 500;
+}
+
