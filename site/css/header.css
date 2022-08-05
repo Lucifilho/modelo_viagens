@@ -11,6 +11,8 @@ header .menus{
     display: flex;
     flex-direction: column;
     gap: 100px;
+    padding: 10px;
+
 }
 
 header .menus .top_menu{

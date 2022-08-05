@@ -12,7 +12,10 @@ body{
 }
 
 .container{
-    padding: 10px 350px;
+
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
 
 }
 
