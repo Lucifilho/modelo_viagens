@@ -135,3 +135,193 @@
 
     color: #142bf3;
 }
+
+/*Terceira parte do Main*/
+
+.pop_destination{
+
+    padding:0 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texts_pop_destination .header_texts{
+
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.texts_pop_destination .header_texts i{
+
+    font-size: 40px;
+    color: blue;
+}
+
+.texts_pop_destination .header_texts .description {
+    color: #003bab;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.texts_pop_destination .description{
+
+    color: #656565;
+    line-height: 1.6;
+    width: 100%;
+    max-width: 300px;
+    font-weight: bold;
+}
+
+.boxes_pop_destination{
+
+    display: flex;
+}
+
+.box_pop{
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: end;
+    gap: 170px;
+
+}
+
+.box_pop .text_pop{
+
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    max-width: 125px;
+}
+
+.box_pop .days{
+
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    color: rgba(108, 127, 255, 0.9);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pack_solution{
+
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pack_solution .title{
+
+
+    font-weight: bold;
+    color: rgba(64, 0, 255, 0.8);
+}
+
+.pack_solution .description {
+
+    font-size: 20px;
+    color: #656565;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.pack_solution .btn_tips {
+
+    margin: auto;
+    width: 100%;
+    max-width: 250px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:#142bf3 ;
+}
+
+.pack_solution .btn_tips:hover {
+
+    transition-duration: 0.8s;
+    background-color: rgba(20, 43, 243, 0.8);
+    font-size: 30px;
+}
+
+/* Quarta parte do Main */
+
+.discount{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: right;
+    color: white;
+}
+.info_discount{
+
+    background-image: linear-gradient(to right, rgba(124, 217, 105, 0.5), rgba(0, 0, 255, 0.5));
+    width: 100%;
+    padding: 150px;
+
+}
+
+.info_discount .description{
+
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.discount_price{
+
+    color: yellow;
+}
+
+.discount .container{
+
+
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.discount .container .btn_discount{
+
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: blue;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.discount .container .btn_discount:hover {
+
+    color: #ffffff;
+    background-color: #000be0;
+    font-size: 30px;
+    padding: 15px;
+    transition-duration: 0.8s;
+    max-width: 350px;
+}
