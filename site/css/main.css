@@ -325,3 +325,75 @@
     transition-duration: 0.8s;
     max-width: 350px;
 }
+
+/*Quinta parte Main */
+.trip_guide{
+
+    padding: 50px 0;
+}
+
+.text_trip{
+
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.text_trip i{
+
+    font-size: 40px;
+    color: blue;
+}
+
+.text_trip .link_more{
+
+     color: #003bab;
+     font-size: 15px;
+     font-weight: 600;
+ }
+
+.boxes_trip{
+
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.box_trip{
+
+    width: 100%;
+    max-width: 250px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box_trip:hover .box {
+
+    display: flex;
+
+}
+
+.box_trip .box {
+
+    display: none;
+    width: 100%;
+    max-width: 230px;
+    padding: 10px;
+    height: 380px;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box_trip .box .title_box{
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+}
+
